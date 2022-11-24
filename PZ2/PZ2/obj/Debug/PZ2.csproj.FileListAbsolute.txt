@@ -1,0 +1,30 @@
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\bin\Debug\PZ2.exe.config
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\bin\Debug\PZ2.exe
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\bin\Debug\PZ2.pdb
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\obj\Debug\MainWindow.g.cs
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\obj\Debug\App.g.cs
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\obj\Debug\PZ2_MarkupCompile.cache
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\obj\Debug\PZ2_MarkupCompile.lref
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\obj\Debug\MainWindow.baml
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\obj\Debug\PZ2.g.resources
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\obj\Debug\PZ2.Properties.Resources.resources
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\obj\Debug\PZ2.csproj.GenerateResource.cache
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\obj\Debug\PZ2.csproj.CoreCompileInputs.cache
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\obj\Debug\PZ2.exe
+C:\Users\steva\Desktop\PZ2\PZ2\PZ2\obj\Debug\PZ2.pdb
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\bin\Debug\PZ2.exe.config
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\bin\Debug\PZ2.exe
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\bin\Debug\PZ2.pdb
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\PZ2.csproj.AssemblyReference.cache
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\PZ2.csproj.SuggestedBindingRedirects.cache
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\MainWindow.g.cs
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\App.g.cs
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\PZ2_MarkupCompile.cache
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\PZ2_MarkupCompile.lref
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\MainWindow.baml
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\PZ2.g.resources
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\PZ2.Properties.Resources.resources
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\PZ2.csproj.GenerateResource.cache
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\PZ2.csproj.CoreCompileInputs.cache
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\PZ2.exe
+C:\Users\stevan\Desktop\New folder\grafika\PZ2\PZ2\obj\Debug\PZ2.pdb

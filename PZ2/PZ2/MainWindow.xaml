@@ -1,0 +1,104 @@
+﻿<Window x:Class="PZ2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PZ2"
+        mc:Ignorable="d"
+        Title="PZ2 Stevan Dobrijevic PR108/2017" Height="880" Width="1000">
+    <Grid>
+        <Menu DockPanel.Dock ="Top"  >            
+            <MenuItem Header="Dodatne opcije">
+                <MenuItem Header="1. Sakrivanje neaktivnog dela"               Width="250"      Click="SakrivanjeNeaktivnogDela_Click" ></MenuItem>
+                <MenuItem Header="1. Prikazivanje neaktivnog dela"             Width="250"      Click="PrikazivanjeNeaktivnogDela_Click" ></MenuItem>
+
+                <MenuItem Header="2. Switch closed"                            Width="250"      Click="SwitchClosed_Click" ></MenuItem>
+                <MenuItem Header="2. Switch open"                              Width="250"      Click="SwitchOpen_Click" ></MenuItem>
+                <MenuItem Header="2. Switch inicijalna boja"                   Width="250"      Click="SwitchInicijalnaBoja_Click" ></MenuItem>
+
+                <MenuItem Header="3. Promena boje vodova"                      Width="250"      Click="PromenaBojeVodova_Click" ></MenuItem>
+                <MenuItem Header="3. Vracanje na inicijalnu"                   Width="250"      Click="VracanjeBojeNaInicijalnu_Click" ></MenuItem>
+
+            </MenuItem>
+            <MenuItem Header="Dodeljeni dodatni zadatak 1">
+                <MenuItem Header="Sakrij sve vodove"      Width="200"      Click="SakrijSveVodove_Click"   ></MenuItem>
+                <MenuItem Header="Prikazi sve vodove"     Width="200"      Click="PrikaziSveVodove_Click" ></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Viewport3D Name="viewport3d" 
+                    MouseLeftButtonUp="Viewport3d_MouseLeftButtonUp"
+                    MouseLeftButtonDown="Viewport3d_MouseLeftButtonDown"
+                    MouseMove="Viewport3d_MouseMove"
+                    MouseWheel="Viewport3d_MouseWheel" 
+                    Margin="0,20,0,0">
+            <Viewport3D.Camera>
+                <PerspectiveCamera Position="0.5,0.5,1.5"/>
+            </Viewport3D.Camera>
+            
+            <Viewport3D.Children>
+                <ModelVisual3D>
+                    <ModelVisual3D.Content>
+                        <AmbientLight/>
+                    </ModelVisual3D.Content>
+                </ModelVisual3D>
+
+                <ModelVisual3D>
+                    <ModelVisual3D.Content>
+                        <Model3DGroup x:Name="mapa">
+                            <GeometryModel3D x:Name="slika">
+                                <GeometryModel3D.Material>
+                                    <DiffuseMaterial>
+                                        <DiffuseMaterial.Brush>
+                                            <ImageBrush ImageSource="map.jpg"/>
+                                        </DiffuseMaterial.Brush>
+                                    </DiffuseMaterial>
+                                </GeometryModel3D.Material>
+
+                                <GeometryModel3D.Geometry>
+                                    <MeshGeometry3D Positions="0,0,0 1,0,0 0,1,0 1,1,0"
+                                                    TriangleIndices="0,1,2 2,1,3"
+                                                    TextureCoordinates="0,1 1,1 0,0 1,0"/>
+                                </GeometryModel3D.Geometry>   
+                            </GeometryModel3D>
+
+                            <Model3DGroup.Transform>
+                                <Transform3DGroup>
+                                    <TranslateTransform3D x:Name="translate"
+                                                          OffsetX="0"
+                                                          OffsetY="0"
+                                                          OffsetZ="0"/>
+                                    
+                                    <ScaleTransform3D x:Name="scale"
+                                                      ScaleX="1"
+                                                      ScaleY="1"
+                                                      ScaleZ="1"/>
+                                    
+                                    <RotateTransform3D x:Name="rotrate"
+                                                       CenterX="0.5"
+                                                       CenterY="0.5"
+                                                       CenterZ="0">
+                                        <RotateTransform3D.Rotation>
+                                            <AxisAngleRotation3D x:Name="ugao1" Axis="0,1,0" Angle="0"/>
+                                        </RotateTransform3D.Rotation>                                        
+                                    </RotateTransform3D>
+
+                                    <RotateTransform3D CenterX="0.5"
+                                                       CenterY="0.5"
+                                                       CenterZ="0">
+                                        <RotateTransform3D.Rotation>
+                                            <AxisAngleRotation3D x:Name="ugao2" Axis="1,0,0" Angle="0"/>
+                                        </RotateTransform3D.Rotation>
+                                    </RotateTransform3D>
+
+                                </Transform3DGroup>
+                            </Model3DGroup.Transform>
+                            
+                        </Model3DGroup>
+                    </ModelVisual3D.Content>
+                </ModelVisual3D>
+
+            </Viewport3D.Children>  
+            
+        </Viewport3D>
+    </Grid>
+</Window>
